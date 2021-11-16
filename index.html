@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<head>
+  <title>Dashboard for Beetroot Academy</title>
+  <meta charset="UTF-8" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="topbar">
+      <img src="images/logo.png" class="topbar__logo" alt="logo of beetroot" />
+      <ul class="topbar__navigation">
+        <li class="topbar__navigation_item">Dashboard</li>
+        <li class="topbar__navigation_item">Homework</li>
+        <li class="topbar__navigation_item">Lessons</li>
+        <li class="topbar__navigation_item">Figma</li>
+      </ul>
+      <div class="topbar__info">
+        <div class="topbar__date">22 Feb 2019, Friday</div>
+        <div class="topbar__notification -alert">
+          <img src="images/bell-o.svg" alt="picture of bell" />
+        </div>
+        <img class="topbar__avatar" src="images/avatar.jpg" alt="avatar" />
+      </div>
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div class="sidebar__element -active">
+          <img src="images/home2.svg" alt="home icon" />
+        </div>
+
+        <div class="sidebar__element">
+          <img src="images/user.svg" alt="user icon" />
+        </div>
+        <div class="sidebar__element">
+          <img src="images/book.svg" alt="book icon" />
+        </div>
+
+        <div class="sidebar__element">
+          <img src="images/heart2.svg" alt="heart incon" />
+        </div>
+
+        <div class="sidebar__element -alert">
+          <img src="images/envelope.svg" alt="e-mail icon" />
+        </div>
+
+        <div class="sidebar__element">
+          <img src="images/gear3.svg" alt="settings icon" />
+        </div>
+        <div class="sidebar__element">
+          <img src="images/question-circle.svg" alt="question icon" />
+        </div>
+        <div class="sidebar__element_link">
+          <img src="images/external.svg" alt="external link" />
+        </div>
+      </div>
+
+      <!-- ---dashboard--- -->
+
+      <div class="dashboard">
+        <div class="dashboard -top">
+          <div class="profile">
+            <img
+              class="profile__avatar -centered"
+              src="images/avatar.jpg"
+              alt="avatar"
+            />
+            <span class="profile__username">Laura Palmer</span>
+            <span class="profile__role">Student</span>
+
+            <div class="profile__cours">
+              <div class="profile__cours-description">
+                <span class="profile__coursename">UI/UX Design</span>
+                <span class="profile__skill">Beginner</span>
+              </div>
+
+              <div class="progressbar-background">
+                <div class="progressbar-progress -p52"></div>
+              </div>
+            </div>
+
+            <div class="profile__cours">
+              <div class="profile__cours-description">
+                <span class="profile__coursename">English</span>
+                <span class="profile__skill">Intermediate</span>
+              </div>
+              <div class="progressbar-background">
+                <div class="progressbar-progress -p63"></div>
+              </div>
+            </div>
+            <button type="submit" class="profile__button">Go to lessons</button>
+          </div>
+
+          <!-- -----course 1 ---- -->
+
+          <div class="course">
+            <div class="course__type">
+              <img
+                class="logo"
+                src="images/beetroot.png"
+                alt="logo -pisture of beetroot"
+              />
+              <span class="course__type-title">Design</span>
+            </div>
+            <span class="course__nextlesson">You have a lesson</span>
+            <span class="course__nextlesson-date">28.11.2015</span>
+            <span class="course_name">UI/UX Design for scratch</span>
+
+            <div class="course__program">
+              <span class="course__program-name">Lesson</span>
+              <span class="course__program-progress">78%</span>
+            </div>
+
+            <div class="course__progressbar">
+              <div class="course__progressbar-progress -p78"></div>
+            </div>
+
+            <div class="course__program">
+              <span class="course__program-name">Practice</span>
+              <span class="course__program-progress">62%</span>
+            </div>
+
+            <div class="course__progressbar">
+              <div class="course__progressbar-progress -p62"></div>
+            </div>
+
+            <div class="course__program">
+              <span class="course__program-name">Homework</span>
+              <span class="course__program-progress">54%</span>
+            </div>
+            <div class="course__progressbar">
+              <div class="course__progressbar-progress -p54"></div>
+            </div>
+          </div>
+
+          <!-- -----course 2 ---- -->
+
+          <div class="course">
+            <div class="course__type">
+              <img
+                class="logo"
+                src="images/beetroot.png"
+                alt="logo -pisture of beetroot"
+              />
+              <span class="course__type-title">English</span>
+            </div>
+            <span class="course__nextlesson">You have a lesson</span>
+            <span class="course__nextlesson-date">24.02.2015</span>
+            <span class="course_name">English Intermediate</span>
+
+            <div class="course__program">
+              <span class="course__program-name">Lesson</span>
+              <span class="course__program-progress">63%</span>
+            </div>
+
+            <div class="course__progressbar">
+              <div class="course__progressbar-progress -p63"></div>
+            </div>
+
+            <div class="course__program">
+              <span class="course__program-name">Practice</span>
+              <span class="course__program-progress">72%</span>
+            </div>
+
+            <div class="course__progressbar">
+              <div class="course__progressbar-progress -p72"></div>
+            </div>
+
+            <div class="course__program">
+              <span class="course__program-name">Homework</span>
+              <span class="course__program-progress">60%</span>
+            </div>
+            <div class="course__progressbar">
+              <div class="course__progressbar-progress -p60"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------    dashboard-bottom    --------- -->
+
+        <div class="dashboard -bottom">
+          <div class="task">
+            <span class="task__icon"> ... </span>
+            <div class="task__details">
+              <div class="task__details-title">
+                <img
+                  class="logo"
+                  src="images/beetroot.png"
+                  alt="logo -pisture of beetroot"
+                />
+                <span>Design</span>
+              </div>
+              <span class="task__deadline">Homework Deadline</span>
+              <span class="task__deadline_time">23 Feb, Saturday 10:00 am</span>
+            </div>
+          </div>
+
+          <div class="homework">
+            <div class="homework__title">
+              <img
+                class="logo"
+                src="images/beetroot.png"
+                alt="logo -pisture of beetroot"
+              />
+              <span>Design homework</span>
+            </div>
+
+            <ul class="homework__details">
+              <li>Create Wirefranme for Landing page</li>
+              <li>Watch lesson Adaptive Designe</li>
+              <li>Watch lesson Components and Plugins</li>
+            </ul>
+          </div>
+
+          <div class="task">
+            <div class="task__details">
+              <div class="task__details-title">
+                <img
+                  class="logo"
+                  src="images/beetroot.png"
+                  alt="logo -pisture of beetroot"
+                />
+                <span>English</span>
+              </div>
+              <span class="task__deadline">Homework Deadline</span>
+              <span class="task__deadline_time">23 Feb, Saturday 10:00 am</span>
+            </div>
+            <span class="task__icon"> ... </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---lessons --- -->
+
+      <div class="lessons">
+        <div class="lesson">
+          <img
+            class="lesson__movie"
+            src="images/enlish_it-01.svg"
+            alt="screen from the movie design system"
+          />
+          <div class="lesson__details">
+            <img
+              class="lesson__startbutton"
+              src="images/play.svg"
+              alt="button to start the movie"
+            />
+            <div class="lesson__title">
+              <h1 class="lesson__topic">Design System</h1>
+              <h2>Figma</h2>
+            </div>
+            <span class="lesson__duration">15:45 min</span>
+            <img class="lesson__like" src=images/heart4.svg>
+          </div>
+        </div>
+
+        <div class="lesson">
+          <img
+            class="lesson__movie"
+            src="images/Artboard-3.svg"
+            alt="screen from the movie design system"
+          />
+          <div class="lesson__details">
+            <img
+              class="lesson__startbutton"
+              src="images/play.svg"
+              alt="button to start the movie"
+            />
+            <div class="lesson__title">
+              <h1 class="lesson__topic">
+                Components and Planninggfdgfyhaaabbbdddh
+              </h1>
+              <h2>Figma</h2>
+            </div>
+            <span class="lesson__duration">24:03 min</span>
+            <img class="lesson__like" src=images/heart5.svg>
+          </div>
+        </div>
+        <div class="lesson">
+          <img
+            class="lesson__movie"
+            src="images/Artboard-1.svg"
+            alt="screen from the movie design system"
+          />
+          <div class="lesson__details">
+            <img
+              class="lesson__startbutton"
+              src="images/play.svg"
+              alt="button to start the movie"
+            />
+            <div class="lesson__title">
+              <h1 class="lesson__topic">Adaptive design</h1>
+              <h2>Figma</h2>
+            </div>
+            <span class="lesson__duration">28:54 min</span>
+            <img class="lesson__like" src=images/heart5.svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

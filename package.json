@@ -1,0 +1,26 @@
+{
+  "name": "beetroot-landpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files 'index.html' '*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korczu/Beetroot-landing-page.g.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korczu/Beetroot-landing-page.g/issues"
+  },
+  "homepage": "https://github.com/korczu/Beetroot-landing-page.g#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}
